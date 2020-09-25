@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet"  href="xxx.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+
+    <p style="font-size: 30px;">
+    sample1
+    </p>
+  
+    <p style="font-size: 30px;">
+    sample2
+    </p>
+  
+  
+    <button class="btn" style="font-size: 25px;">
+    Button
+    </button>
+  
+    <script>
+      $(function(){
+          $("p:nth-child(1)").css("color","red");
+          $(".btn").css("border", "none");
+      });
+    </script>
+  </div>
+   
+</body>
+</html>
